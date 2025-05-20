@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary-color: #0066ff;
+    --secundary-color:#ff7300;
+    --text-color: #000000;
+    --background-color: #ffffff;
+    --button-hover: #000000;
+    --font-body: "Open Sans", sans-serif;
+    --font-titulo: "Libre Baskerville", serif;
+
+}
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+/*corpo*/
+body{
+    backgrownd-color:(--background-color);
+    color: var(--text-color);
+    line-height: 1,6;
+}
+h3{
+    margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%;
+}
+/*cabeçalho*/
+header{
+    background: var(--background-color);
+    color:#000000;
+    text-align: center;
+    padding:22px;
+}
